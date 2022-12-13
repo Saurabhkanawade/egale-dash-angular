@@ -1,0 +1,29 @@
+.container {
+  margin-top: 30px;
+  margin-left: -12px;
+}
+
+.container ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 11px;
+}
+
+.container ul li {
+  list-style: none;
+}
+
+.btn-sidenav {
+  background-color: #f1f1f1;
+  padding: 13px;
+  text-align: initial;
+  padding-left: 13px;
+  margin: 6px;
+  box-shadow: 2px solid black;
+  box-shadow: 2px 2px #bbb6b6;
+  width: 119px;
+}
+
+.btn-sidenav:hover {
+  background-color: rgb(194 194 194 / 83%);
+}

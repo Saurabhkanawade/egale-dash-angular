@@ -1,0 +1,81 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+.user {
+  font-size: 14px;
+}
+mat-toolbar {
+  background: #eeeeee;
+}
+.user-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  &-icon {
+    height: 18px;
+    font-size: 16px;
+  }
+}
+
+::ng-deep {
+  .mat-menu-content {
+    width: 160px;
+  }
+}
+
+.tool-nav {
+}
+
+.mat-badge-medium.mat-badge-after .mat-badge-content {
+  right: 16px;
+}
+
+.mat-badge-medium.mat-badge-above .mat-badge-content {
+  top: -2px;
+}
+.mat-badge-medium .mat-badge-content {
+  width: 17px;
+  height: 17px;
+  line-height: 18px;
+}
+
+.form-select {
+  display: block;
+  width: fit-content;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.tool{
+  position: relative;
+  top: 10px;
+}
